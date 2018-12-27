@@ -222,7 +222,7 @@ def job():
 
 if __name__ == '__main__':
 
-    logging.basicConfig(filename=WORK_DIR + 's2scenes.log', level=logging.INFO,
+    logging.basicConfig(filename=WORK_DIR + '/s2scenes.log', level=logging.INFO,
                         format='%(asctime)s - %(funcName)s : %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
 
     with open(WORK_DIR + '/.bench-front.cfg') as cfgFile:
