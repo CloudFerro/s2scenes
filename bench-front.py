@@ -23,8 +23,7 @@ MIN_PROD_SIZE = 729145600
 
 START_DATE = (datetime.datetime.now() + datetime.timedelta(days=-30)).isoformat()
 
-# HOME = os.environ['HOME']
-HOME = '.'
+HOME = os.environ['HOME']
 WORK_DIR = HOME + '/bench-front'
 INDEX = WORK_DIR + '/item.md'
 TEMPLATE = WORK_DIR + '/template.md'
