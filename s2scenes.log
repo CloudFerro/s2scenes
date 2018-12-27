@@ -1,0 +1,68 @@
+INFO:root:Finder URL: https://finder.eocloud.eu/resto/api/collections/Sentinel2/search.json?maxRecords=200&processingLevel=LEVELL1C&publishedAfter=2018-11-26T15:50:39.370293&cloudCover=[0,20]&sortParam=startDate&sortOrder=descending&dataset=ESA-DATASET
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finder.eocloud.eu:443
+DEBUG:urllib3.connectionpool:https://finder.eocloud.eu:443 "GET /resto/api/collections/Sentinel2/search.json?%20%20%20%20%20%20%20%20%20%20%20%20maxRecords=200&%20%20%20%20%20%20%20%20%20%20%20%20processingLevel=LEVELL1C&%20%20%20%20%20%20%20%20%20%20%20%20publishedAfter=2018-11-26T15:50:39.370293&%20%20%20%20%20%20%20%20%20%20%20%20cloudCover=[0,20]&%20%20%20%20%20%20%20%20%20%20%20%20sortParam=startDate&sortOrder=descending&%20%20%20%20%20%20%20%20%20%20%20%20dataset=ESA-DATASET HTTP/1.1" 200 None
+INFO:root:Finder URL: https://finder.eocloud.eu/resto/api/collections/Sentinel2/search.json?maxRecords=200&processingLevel=LEVELL1C&publishedAfter=2018-11-26T15:51:37.071230&cloudCover=[0,20]&sortParam=startDate&sortOrder=descending&dataset=ESA-DATASET
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finder.eocloud.eu:443
+DEBUG:urllib3.connectionpool:https://finder.eocloud.eu:443 "GET /resto/api/collections/Sentinel2/search.json?%20%20%20%20%20%20%20%20%20%20%20%20maxRecords=200&%20%20%20%20%20%20%20%20%20%20%20%20processingLevel=LEVELL1C&%20%20%20%20%20%20%20%20%20%20%20%20publishedAfter=2018-11-26T15:51:37.071230&%20%20%20%20%20%20%20%20%20%20%20%20cloudCover=[0,20]&%20%20%20%20%20%20%20%20%20%20%20%20sortParam=startDate&sortOrder=descending&%20%20%20%20%20%20%20%20%20%20%20%20dataset=ESA-DATASET HTTP/1.1" 200 None
+INFO:root:Finder URL: https://finder.eocloud.eu/resto/api/collections/Sentinel2/search.json?maxRecords=200&processingLevel=LEVELL1C&publishedAfter=2018-11-26T15:52:19.113210&cloudCover=[0,20]&sortParam=startDate&sortOrder=descending&dataset=ESA-DATASET
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finder.eocloud.eu:443
+DEBUG:urllib3.connectionpool:https://finder.eocloud.eu:443 "GET /resto/api/collections/Sentinel2/search.json?%20%20%20%20%20%20%20%20%20%20%20%20maxRecords=200&%20%20%20%20%20%20%20%20%20%20%20%20processingLevel=LEVELL1C&%20%20%20%20%20%20%20%20%20%20%20%20publishedAfter=2018-11-26T15:52:19.113210&%20%20%20%20%20%20%20%20%20%20%20%20cloudCover=[0,20]&%20%20%20%20%20%20%20%20%20%20%20%20sortParam=startDate&sortOrder=descending&%20%20%20%20%20%20%20%20%20%20%20%20dataset=ESA-DATASET HTTP/1.1" 200 None
+INFO:root:Found 3 products
+INFO:root:Finder URL: https://finder.eocloud.eu/resto/api/collections/Sentinel2/search.json?maxRecords=200&processingLevel=LEVELL1C&publishedAfter=2018-11-26T15:53:26.248509&cloudCover=[0,20]&sortParam=startDate&sortOrder=descending&dataset=ESA-DATASET
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finder.eocloud.eu:443
+DEBUG:urllib3.connectionpool:https://finder.eocloud.eu:443 "GET /resto/api/collections/Sentinel2/search.json?%20%20%20%20%20%20%20%20%20%20%20%20maxRecords=200&%20%20%20%20%20%20%20%20%20%20%20%20processingLevel=LEVELL1C&%20%20%20%20%20%20%20%20%20%20%20%20publishedAfter=2018-11-26T15:53:26.248509&%20%20%20%20%20%20%20%20%20%20%20%20cloudCover=[0,20]&%20%20%20%20%20%20%20%20%20%20%20%20sortParam=startDate&sortOrder=descending&%20%20%20%20%20%20%20%20%20%20%20%20dataset=ESA-DATASET HTTP/1.1" 200 None
+INFO:root:Found 200 products
+INFO:root:Finder URL: https://finder.eocloud.eu/resto/api/collections/Sentinel2/search.json?maxRecords=200&processingLevel=LEVELL1C&publishedAfter=2018-11-26T15:54:49.471366&cloudCover=[0,20]&sortParam=startDate&sortOrder=descending&dataset=ESA-DATASET
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finder.eocloud.eu:443
+DEBUG:urllib3.connectionpool:https://finder.eocloud.eu:443 "GET /resto/api/collections/Sentinel2/search.json?%20%20%20%20%20%20%20%20%20%20%20%20maxRecords=200&%20%20%20%20%20%20%20%20%20%20%20%20processingLevel=LEVELL1C&%20%20%20%20%20%20%20%20%20%20%20%20publishedAfter=2018-11-26T15:54:49.471366&%20%20%20%20%20%20%20%20%20%20%20%20cloudCover=[0,20]&%20%20%20%20%20%20%20%20%20%20%20%20sortParam=startDate&sortOrder=descending&%20%20%20%20%20%20%20%20%20%20%20%20dataset=ESA-DATASET HTTP/1.1" 200 None
+INFO:root:Finder URL: https://finder.eocloud.eu/resto/api/collections/Sentinel2/search.json?maxRecords=200&processingLevel=LEVELL1C&publishedAfter=2018-11-26T15:55:00.510051&cloudCover=[0,20]&sortParam=startDate&sortOrder=descending&dataset=ESA-DATASET
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finder.eocloud.eu:443
+DEBUG:urllib3.connectionpool:https://finder.eocloud.eu:443 "GET /resto/api/collections/Sentinel2/search.json?%20%20%20%20%20%20%20%20%20%20%20%20maxRecords=200&%20%20%20%20%20%20%20%20%20%20%20%20processingLevel=LEVELL1C&%20%20%20%20%20%20%20%20%20%20%20%20publishedAfter=2018-11-26T15:55:00.510051&%20%20%20%20%20%20%20%20%20%20%20%20cloudCover=[0,20]&%20%20%20%20%20%20%20%20%20%20%20%20sortParam=startDate&sortOrder=descending&%20%20%20%20%20%20%20%20%20%20%20%20dataset=ESA-DATASET HTTP/1.1" 200 None
+INFO:root:Found 200 products
+INFO:root:Finder URL: https://finder.eocloud.eu/resto/api/collections/Sentinel2/search.json?maxRecords=200&processingLevel=LEVELL1C&publishedAfter=2018-11-26T16:00:31.187389&cloudCover=[0,20]&sortParam=startDate&sortOrder=descending&dataset=ESA-DATASET
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finder.eocloud.eu:443
+DEBUG:urllib3.connectionpool:https://finder.eocloud.eu:443 "GET /resto/api/collections/Sentinel2/search.json?%20%20%20%20%20%20%20%20%20%20%20%20maxRecords=200&%20%20%20%20%20%20%20%20%20%20%20%20processingLevel=LEVELL1C&%20%20%20%20%20%20%20%20%20%20%20%20publishedAfter=2018-11-26T16:00:31.187389&%20%20%20%20%20%20%20%20%20%20%20%20cloudCover=[0,20]&%20%20%20%20%20%20%20%20%20%20%20%20sortParam=startDate&sortOrder=descending&%20%20%20%20%20%20%20%20%20%20%20%20dataset=ESA-DATASET HTTP/1.1" 200 None
+INFO:root:Found 200 products
+INFO:root:Selected product: S2A_MSIL1C_20181226T080331_N0207_R035_T35JMH_20181226T101636.SAFE
+INFO:root:Finder URL: https://finder.eocloud.eu/resto/api/collections/Sentinel2/search.json?maxRecords=200&processingLevel=LEVELL1C&publishedAfter=2018-11-26T16:01:35.848559&cloudCover=[0,20]&sortParam=startDate&sortOrder=descending&dataset=ESA-DATASET
+INFO:root:Found 200 products
+INFO:root:Selected product: S2A_MSIL1C_20181226T080331_N0207_R035_T35JLL_20181226T101636.SAFE
+INFO:root:Finder URL: https://finder.eocloud.eu/resto/api/collections/Sentinel2/search.json?maxRecords=2000&processingLevel=LEVELL1C&publishedAfter=2018-11-26T16:02:08.835786&cloudCover=[0,20]&sortParam=startDate&sortOrder=descending&dataset=ESA-DATASET
+INFO:root:Found 2000 products
+INFO:root:Selected product: S2B_MSIL1C_20181226T053229_N0207_R105_T43QCB_20181226T082912.SAFE
+INFO:root:Finder URL: https://finder.eocloud.eu/resto/api/collections/Sentinel2/search.json?maxRecords=2000&processingLevel=LEVELL1C&publishedAfter=2018-11-26T16:02:29.841291&cloudCover=[0,20]&sortParam=startDate&sortOrder=descending&dataset=ESA-DATASET
+INFO:root:Found 2000 products
+INFO:root:Selected product: S2B_MSIL1C_20181225T230859_N0207_R101_T58LGH_20181226T002115.SAFE
+INFO:root:Finder URL: https://finder.eocloud.eu/resto/api/collections/Sentinel2/search.json?maxRecords=2000&processingLevel=LEVELL1C&publishedAfter=2018-11-26T16:03:35.560594&cloudCover=[0,20]&sortParam=startDate&sortOrder=descending&dataset=ESA-DATASET
+INFO:root:Found 2000 products
+INFO:root:Narrow selection: 713
+INFO:root:Selected product: S2B_MSIL1C_20181226T004659_N0207_R102_T53HQA_20181226T020354.SAFE
+INFO:root:Finder URL: https://finder.eocloud.eu/resto/api/collections/Sentinel2/search.json?maxRecords=2000&processingLevel=LEVELL1C&publishedAfter=2018-11-27T02:03:09.561129&cloudCover=[0,20]&sortParam=startDate&sortOrder=descending&dataset=ESA-DATASET
+INFO:root:Found 2000 products
+INFO:root:Narrow selection: 650
+INFO:root:Selected product: S2B_MSIL1C_20181226T103439_N0207_R108_T30PXA_20181226T124711.SAFE
+INFO:root:Finder URL: https://finder.eocloud.eu/resto/api/collections/Sentinel2/search.json?maxRecords=2000&processingLevel=LEVELL1C&publishedAfter=2018-11-27T02:03:30.474239&cloudCover=[0,20]&sortParam=startDate&sortOrder=descending&dataset=ESA-DATASET
+INFO:root:Found 2000 products
+INFO:root:Narrow selection: 650
+INFO:root:Selected product: S2A_MSIL1C_20181226T094411_N0207_R036_T32PPV_20181226T105317.SAFE
+INFO:root:Finder URL: https://finder.eocloud.eu/resto/api/collections/Sentinel2/search.json?maxRecords=2000&processingLevel=LEVELL1C&publishedAfter=2018-11-27T02:04:54.976814&cloudCover=[0,20]&sortParam=startDate&sortOrder=descending&dataset=ESA-DATASET
+INFO:root:Found 2000 products
+INFO:root:Narrow selection: 650
+INFO:root:Selected product: S2B_MSIL1C_20181226T171729_N0207_R112_T14RLQ_20181226T203645.SAFE
+INFO:root:Finder URL: https://finder.eocloud.eu/resto/api/collections/Sentinel2/search.json?maxRecords=2000&processingLevel=LEVELL1C&publishedAfter=2018-11-27T02:05:29.711200&cloudCover=[0,20]&sortParam=startDate&sortOrder=descending&dataset=ESA-DATASET
+INFO:root:Found 2000 products
+INFO:root:Narrow selection: 650
+INFO:root:Selected product: S2B_MSIL1C_20181226T071309_N0207_R106_T39SYV_20181226T091942.SAFE
+INFO:root:Finder URL: https://finder.eocloud.eu/resto/api/collections/Sentinel2/search.json?maxRecords=2000&processingLevel=LEVELL1C&publishedAfter=2018-11-27T11:14:50.790257&cloudCover=[0,20]&sortParam=startDate&sortOrder=descending&dataset=ESA-DATASET
+INFO:root:Found 2000 products
+INFO:root:Narrow selection: 676
+INFO:root:Selected product: S2A_MSIL1C_20181226T080331_N0207_R035_T37SFT_20181226T100233.SAFE
+INFO:root:Finder URL: https://finder.eocloud.eu/resto/api/collections/Sentinel2/search.json?maxRecords=2000&processingLevel=LEVELL1C&publishedAfter=2018-11-27T11:17:29.277301&cloudCover=[0,20]&sortParam=startDate&sortOrder=descending&dataset=ESA-DATASET
+INFO:root:Found 2000 products
+INFO:root:Narrow selection: 676
+INFO:root:Selected product: S2A_MSIL1C_20181226T112451_N0207_R037_T29RKH_20181226T114909.SAFE
+INFO:root:Finder URL: https://finder.eocloud.eu/resto/api/collections/Sentinel2/search.json?maxRecords=2000&processingLevel=LEVELL1C&publishedAfter=2018-11-27T11:18:35.272788&cloudCover=[0,20]&sortParam=startDate&sortOrder=descending&dataset=ESA-DATASET
+INFO:root:Found 2000 products
+INFO:root:Narrow selection: 676
+INFO:root:Selected product: S2A_MSIL1C_20181226T232831_N0207_R044_T57KYB_20181227T004331.SAFE
+ERROR:root:Failed on mkdir ./bench-front/S2A_MSIL1C_20181226T232831_N0207_R044_T57KYB_20181227T004331.SAFE/. With error: [WinError 3] System nie mo¿e odnaleŸæ okreœlonej œcie¿ki: './bench-front/S2A_MSIL1C_20181226T232831_N0207_R044_T57KYB_20181227T004331.SAFE/'

@@ -1,0 +1,6 @@
+#RGB-Image Profile
+#Fri Jun 01 09:02:10 CEST 2018
+blue=B2
+name=rgb_def
+green=B3
+red=B4
