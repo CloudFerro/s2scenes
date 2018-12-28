@@ -86,7 +86,7 @@ def convert_product(_product: json):
 
     comm = '/usr/local/snap/bin/pconvert -f png -W 800 -p {0}/rgb_def.txt -o {0}/{1}/ {2}'\
         .format(WORK_DIR, _product['properties']['title'], _product['properties']['productIdentifier'])
-    p = Popen(comm.split(), stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=False)
+    p = Popen(comm.split(), stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=False, universal_newlines=True)
     (output, err) = p.communicate()
     logging.info(output)
     logging.info(err)
@@ -146,7 +146,7 @@ def write_cms_files(best_product, output_file_png, duration):
         config = io.open(dirName + '/item.md', 'w')
         logging.info('Copying into: {0}'.format(dirName + '/item.md'))
         # Read the lines from the template, substitute the values, and write to the new config file
-        for line in io.open(TEMPLATE, 'r'):
+        for line in io.open(TEMPLATE, "r", encoding="utf-8"):
             config.write(line_tune(line, best_product, output_file_png, duration, maxnum, now))
         # Close the files
         config.close()
@@ -157,7 +157,7 @@ def write_cms_files(best_product, output_file_png, duration):
     try:
         config = io.open(WWW_ROOT + '/grav/user/pages/01.home/default.md', 'w')
         logging.info('Copying into: {0}'.format(WWW_ROOT + '/grav/user/pages/01.home/default.md'))
-        for line in io.open(TEMPLATE_DEFAULT, 'r'):
+        for line in io.open(TEMPLATE_DEFAULT, "r", encoding="utf-8"):
             config.write(line_tune(line, best_product, output_file_png, duration, maxnum, now))
         config.close()
     except Exception as e:
