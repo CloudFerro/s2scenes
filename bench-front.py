@@ -115,12 +115,17 @@ def line_tune(line, best_product, output_file_png, duration, maxnum, now):
         line = line.replace('_PRODPATH', best_product['properties']['productIdentifier'])
     if '_CCOVERAGE' in line:
         line = line.replace('_CCOVERAGE', str(best_product['properties']['cloudCover']))
-    return line;
+    return line
 
 
 def put_s3_file(inputFileName):
     logging.info('START copying {0}'.format(inputFileName))
-    return s3.upload_file(inputFileName, BUCKET, 'png/' + inputFileName.split('/')[-1])
+    try:
+        ret = s3.upload_file(inputFileName, BUCKET, 'png/' + inputFileName.split('/')[-1])
+    except Exception as e:
+        logging.error(str(e))
+        sys.exit(1)
+    return ret
 
 
 def get_max_dir_name():
@@ -211,7 +216,8 @@ def job():
         products = find_products(FINDER_API_URL)
         best_product = select_product(products)
         output_file_png = convert_product(best_product)
-        push = put_s3_file(output_file_png)
+        # push = put_s3_file(output_file_png)
+        put_s3_file(output_file_png)
         duration = round(time.time() - start_time, 2)
         write_cms_files(best_product, output_file_png, duration)
     except Exception as e:
