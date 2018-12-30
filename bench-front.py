@@ -171,11 +171,11 @@ def _line_tune(line, best_product, output_file_png, duration, maxnum, now):
     if '_PROCTIME' in line:
         line = line.replace('_PROCTIME', str(duration))
     if '_PRODSIZE' in line:
-        line = line.replace('_PRODSIZE', str(best_product['properties']['services']['download']['size'] / (1024 ** 2)))
+        line = line.replace('_PRODSIZE', str(round(best_product['properties']['services']['download']['size'] / (1024 ** 2), 2)))
     if '_PRODPATH' in line:
         line = line.replace('_PRODPATH', best_product['properties']['productIdentifier'])
     if '_CCOVERAGE' in line:
-        line = line.replace('_CCOVERAGE', str(best_product['properties']['cloudCover']))
+        line = line.replace('_CCOVERAGE', str(round(best_product['properties']['cloudCover'], 2)))
     return line
 
 
